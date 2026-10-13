@@ -1,0 +1,8 @@
+# dsh-locale-es-ui: one Loader row over the shipped Web composition.
+# The browser half registers the es language and its dictionaries through
+# the public locale registry, so Español appears in Settings -> General ->
+# Language and untranslated keys fall back to en.
+
+- insert:
+    - id: locale-es
+      name: 'dsh-locale-es-ui'

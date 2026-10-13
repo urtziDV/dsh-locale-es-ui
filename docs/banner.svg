@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="300" viewBox="0 0 1280 300" role="img" aria-label="dsh-locale-es-ui: pack de idioma español para DeepSeek Harness">
+  <title>dsh-locale-es-ui</title>
+  <desc>Pack de idioma español (es) para la interfaz web de DeepSeek Harness.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="0.55" stop-color="#101c2e"/>
+      <stop offset="1" stop-color="#16233a"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.85" cy="0.1" r="0.6">
+      <stop offset="0" stop-color="#f1bf00" stop-opacity="0.20"/>
+      <stop offset="1" stop-color="#f1bf00" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#aa151b"/>
+      <stop offset="0.5" stop-color="#f1bf00"/>
+      <stop offset="1" stop-color="#aa151b"/>
+    </linearGradient>
+    <clipPath id="flagClip">
+      <rect x="64" y="70" width="76" height="52" rx="10"/>
+    </clipPath>
+  </defs>
+
+  <rect width="1280" height="300" rx="22" fill="url(#bg)"/>
+  <rect width="1280" height="300" rx="22" fill="url(#glow)"/>
+  <rect x="0" y="286" width="1280" height="6" rx="3" fill="url(#accent)" opacity="0.9"/>
+
+  <!-- bandera -->
+  <g clip-path="url(#flagClip)">
+    <rect x="64" y="70" width="76" height="15" fill="#aa151b"/>
+    <rect x="64" y="85" width="76" height="22" fill="#f1bf00"/>
+    <rect x="64" y="107" width="76" height="15" fill="#aa151b"/>
+  </g>
+  <rect x="64.75" y="70.75" width="74.5" height="50.5" rx="9.25" fill="none" stroke="#ffffff" stroke-opacity="0.18" stroke-width="1.5"/>
+
+  <!-- título -->
+  <text x="164" y="102" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="42" font-weight="700" fill="#ffffff" letter-spacing="-0.5">dsh-locale-es-ui</text>
+  <text x="164" y="136" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="20" fill="#9fb3c8">Español para la interfaz web de DeepSeek Harness</text>
+
+  <!-- chips de datos -->
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="15" font-weight="600">
+    <rect x="164" y="168" width="164" height="38" rx="19" fill="#1b2a41" stroke="#2b4a6b"/>
+    <text x="246" y="193" fill="#cfe3ff" text-anchor="middle">54 namespaces</text>
+
+    <rect x="340" y="168" width="150" height="38" rx="19" fill="#1b2a41" stroke="#2b4a6b"/>
+    <text x="415" y="193" fill="#cfe3ff" text-anchor="middle">2.395 cadenas</text>
+
+    <rect x="502" y="168" width="168" height="38" rx="19" fill="#1b2a41" stroke="#2b4a6b"/>
+    <text x="586" y="193" fill="#cfe3ff" text-anchor="middle">0 dependencias</text>
+
+    <rect x="682" y="168" width="112" height="38" rx="19" fill="#1b2a41" stroke="#2b4a6b"/>
+    <text x="738" y="193" fill="#cfe3ff" text-anchor="middle">MIT</text>
+  </g>
+
+  <!-- maqueta de la fila de idioma -->
+  <g>
+    <rect x="880" y="62" width="336" height="176" rx="16" fill="#0f1a2b" stroke="#22344d"/>
+    <text x="908" y="94" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" fill="#7f95ad" letter-spacing="0.6">AJUSTES · GENERAL</text>
+    <text x="908" y="128" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="19" font-weight="600" fill="#e8f0fb">Idioma</text>
+    <rect x="908" y="146" width="180" height="40" rx="10" fill="#16283f" stroke="#2f4a6d"/>
+    <text x="926" y="172" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="16" fill="#ffffff">Español</text>
+    <path d="M1062 162 l7 8 l7 -8" fill="none" stroke="#8fb4dd" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="1176" cy="166" r="17" fill="#173a2b" stroke="#2f7a55"/>
+    <path d="M1168 166 l6 6 l11 -12" fill="none" stroke="#5fd08a" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="908" y="214" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" fill="#7f95ad">Sin tocar la instalación · fallback a inglés</text>
+  </g>
+</svg>

@@ -1,0 +1,66 @@
+{
+  "name": "dsh-locale-es-ui",
+  "version": "1.0.1",
+  "description": "Pack de idioma español (es) para la interfaz web de DeepSeek Harness (DSH): añade Español a Settings → General → Language y traduce 54 namespaces / 2.395 cadenas.",
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "deepseek",
+    "locale",
+    "language-pack",
+    "spanish",
+    "español",
+    "i18n",
+    "plugin"
+  ],
+  "license": "MIT",
+  "author": "Iztru (urtziDV)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/urtziDV/dsh-locale-es-ui.git"
+  },
+  "homepage": "https://github.com/urtziDV/dsh-locale-es-ui#readme",
+  "bugs": {
+    "url": "https://github.com/urtziDV/dsh-locale-es-ui/issues"
+  },
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./lib/client.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "lib/",
+    "data/",
+    "docs/",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "node tools/build-client.mjs",
+    "validate": "node tools/validate.mjs",
+    "verify": "node tools/verify-bundle.mjs",
+    "test": "node tools/validate.mjs && node tools/verify-bundle.mjs",
+    "extract": "node tools/extract-dictionaries.mjs",
+    "prepack": "node tools/build-client.mjs && node tools/validate.mjs && node tools/verify-bundle.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true
+    }
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

@@ -1,0 +1,5 @@
+# Mantén LF en todos los archivos de texto: el paquete se publica desde Linux (CI)
+# y Windows no debe introducir CRLF en data/*.json ni en los artefactos generados.
+* text=auto eol=lf
+*.png binary
+*.ico binary

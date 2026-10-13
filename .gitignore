@@ -1,0 +1,7 @@
+node_modules/
+*.tgz
+*.asar
+.npm-cache/
+.pnpm-store/
+.DS_Store
+Thumbs.db
