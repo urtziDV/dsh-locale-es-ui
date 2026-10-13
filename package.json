@@ -1,7 +1,7 @@
-{
+﻿{
   "name": "dsh-locale-es-ui",
-  "version": "1.0.1",
-  "description": "Pack de idioma español (es) para la interfaz web de DeepSeek Harness (DSH): añade Español a Settings → General → Language y traduce 54 namespaces / 2.395 cadenas.",
+  "version": "1.0.2",
+  "description": "Pack de idioma espaÃ±ol (es) para la interfaz web de DeepSeek Harness (DSH): aÃ±ade EspaÃ±ol a Settings â†’ General â†’ Language y traduce 54 namespaces / 2.395 cadenas.",
   "keywords": [
     "dsh",
     "deepseek-harness",
@@ -9,12 +9,15 @@
     "locale",
     "language-pack",
     "spanish",
-    "español",
+    "espaÃ±ol",
     "i18n",
     "plugin"
   ],
   "license": "MIT",
-  "author": "Iztru (urtziDV)",
+  "author": {
+    "name": "Iztru",
+    "url": "https://github.com/urtziDV"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/urtziDV/dsh-locale-es-ui.git"
