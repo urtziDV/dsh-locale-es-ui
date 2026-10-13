@@ -30,7 +30,7 @@ traducido sigue saliendo en inglés.
 |---|---|
 | 🖱️ **Interfaz** | Barra lateral → **Plugins** → **Add plugin** → `dsh-locale-es-ui` |
 | ⌨️ **CLI** | `dsh plugin --profile web add dsh-locale-es-ui` |
-| 📦 **Sin registro** | Descarga el `.tgz` de la [release](https://github.com/urtziDV/dsh-locale-es-ui/releases) y añádelo por ruta |
+| 📦 **Sin registro** | Descarga el `.tgz` desde [npm](https://www.npmjs.com/package/dsh-locale-es-ui) (`npm pack dsh-locale-es-ui`) y añádelo por ruta |
 
 Luego **reinicia DSH** y elige **Español** en **Ajustes → General → Idioma**.
 Si tu navegador ya está en español, puede activarse solo.
